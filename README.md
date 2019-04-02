@@ -1,6 +1,6 @@
 FIT Layout Analysis Framework - BCS Segmentation Algorithm
 ===============================================================
-(c) 2018-2019 Tomáš Lengál, Jan Zelený, Radek Burget (burgetr@fit.vutbr.cz)1
+(c) 2018-2019 Tomáš Lengál, Jan Zelený, Radek Burget (burgetr@fit.vutbr.cz)
 
 This is an experimental re-write of the *Box clustering segmentation* algorithm published in
 
