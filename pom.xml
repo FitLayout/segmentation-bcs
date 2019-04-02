@@ -30,9 +30,21 @@
 
 	<developers>
 		<developer>
+			<name>Jan Zelený</name>
+			<roles>
+				<role>Original method design and implementation</role>
+			</roles>
+		</developer>
+		<developer>
+			<name>Tomáš Lengál</name>
+			<roles>
+				<role>The FitLayout port</role>
+			</roles>
+		</developer>
+		<developer>
 			<name>Radek Burget</name>
 			<roles>
-				<role>Main developer &amp; project leader</role>
+				<role>Developer &amp; project leader</role>
 			</roles>
 		</developer>
 	</developers>
