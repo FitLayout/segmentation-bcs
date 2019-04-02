@@ -1,0 +1,62 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<!--
+	 -->
+	
+	<parent>
+		<groupId>cz.vutbr.fit.layout</groupId>
+		<artifactId>parent</artifactId>
+		<version>0.0.5-SNAPSHOT</version>
+		<relativePath>../parent/pom.xml</relativePath>
+	</parent>
+	
+	<artifactId>segmentation-bcs</artifactId>
+	
+	<name>TaggerSpotlight</name>
+	
+	<description>
+		An extensible web page segmentation and analysis framework - BCS segmentation algorithm implementation 
+	</description>
+	<url>http://www.fit.vutbr.cz/~burgetr/FITLayout/</url>
+
+	<licenses>
+		<license>
+			<name>GNU Lesser General Public License 3.0</name>
+			<url>http://www.gnu.org/licenses/lgpl-3.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<name>Radek Burget</name>
+			<roles>
+				<role>Main developer &amp; project leader</role>
+			</roles>
+		</developer>
+	</developers>
+
+	<scm>
+		<url>https://github.com/FitLayout/classify</url>
+		<connection>scm:git:git@github.com:FitLayout/segmentation-bcs.git</connection>
+		<developerConnection>scm:git:git@github.com:FitLayout/segmentation-bcs.git</developerConnection>
+		<tag>HEAD</tag>
+    </scm>
+    
+	<build>
+		<sourceDirectory>src/main/java</sourceDirectory>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>cz.vutbr.fit.layout</groupId>
+			<artifactId>layout-api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>cz.vutbr.fit.layout</groupId>
+			<artifactId>layout-segmentation</artifactId>
+		</dependency>
+	</dependencies>
+
+</project>
