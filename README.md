@@ -32,3 +32,6 @@ When using the project for your scientific work, please cite the related publica
     author = "Jan Zeleny and Radek Burget and Jaroslav Zendulka"
 }
 ```
+
+See the [Builds/ToolsBCS](https://github.com/FitLayout/Builds/tree/master/ToolsBCS) project for an example
+of a FitLayout build that includes the BCS support.
